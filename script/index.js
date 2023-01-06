@@ -85,6 +85,7 @@ const countryList = [
 ];
 
 region = ""; //預設區域名稱
+//123
 
 let now_Date = new Date(); //現在時間
 now_Date.toISOString().split("T")[0];
@@ -107,7 +108,7 @@ var second = Number(today_now_time.split(":")[2]);
 // 用來模擬延遲 Queue 的動作
 window.setInterval(function () {
   var i = 0;
-  while (i++ < 999999) {}
+  while (i++ < 999999) { }
 }, 0);
 
 window.setInterval(function () {
